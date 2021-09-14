@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+#world {
+animation:fadein 0.5s;-moz-animation:fadein 1.0s;-webkit-animation:fadein 0.5s;
+
+  background: #f0f0ef;
+  position:absolute;
+  width:100%;
+  height:100%;
+  overflow:hidden; 
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+
+}
+
+canvas{
+    display: block;
+}
+
+a {
+  font-family: "Lato";
+  font-size: 18px;
+  color: #d98a6d;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+}
+
+a:hover{
+  color:  #737373;
+  ;
+}
+
+#instructions{
+  position:absolute;
+  width:100%;
+  top:10%;
+  word-spacing: 5em;
+  margin: auto;
+  margin-top:10px;
+  font-family:'Open Sans', sans-serif;
+  color:#d98a6d;
+  font-size:.9em;
+  text-transform: uppercase;
+  text-align : center;
+}
+.lightInstructions {
+  color:#b59b63;
+  font-size:.8em;
+}
+
+#navigation{
+    position:absolute;
+    width:100%;
+    margin: auto;
+    bottom:0;
+    margin-bottom:800px;
+    font-family:'Open Sans', sans-serif;
+    color:#b59b63;
+    font-size:0.7em;
+    text-transform: uppercase;
+    text-align : center;
+  }
+
+#credits{
+  position:absolute;
+  width:100%;
+  margin: auto;
+  bottom:0;
+  margin-bottom:20px;
+  font-family:'Open Sans', sans-serif;
+  color: #d98a6d;
+  font-size:10px !important;
+  text-transform: uppercase;
+  text-align : center;
+}
+#credits a {
+   color: #d98a6d;
+
+}
+
+@keyframes fadein{from{opacity:0;}to{opacity:1;}}@-moz-keyframes fadein{from{opacity:0;}to{opacity:1;}}@-webkit-keyframes fadein{from{opacity:0;}to{opacity:1;}}@-o-keyframes fadein{from{opacity:0;}to{opacity:1;}}
+
+
+
+
